@@ -20,17 +20,19 @@ insert schematic here
 ## Projects
 List of projects under this repository.
 ### Blinking LED
-Simple blinking led program, or the "Hello, World!" of embedded programming.
+Simple blinking LED program, or the "Hello, World!" of embedded programming.
 #### Code
+[blink.c](https://github.com/antoine-dorard/hello_avr/blob/main/src/blink.c)
 #### Schematic
 
 ### Not LED
-Turn off a led when a button is pressed.
+Turn off a LED when a button is pressed.
 #### Code
+[click.c](https://github.com/antoine-dorard/hello_avr/blob/main/src/click.c)
 #### Schematic
 
 ### Who said no light?
-Using a light sensor, progressively turn on a led if when the light sensor detects less and less light.
+Using a light sensor, progressively turn on an LED when the light sensor detects less and less light.
 #### Code
 #### Schematic
 
