@@ -24,15 +24,18 @@ Simple blinking LED program, or the "Hello, World!" of embedded programming.
 #### Code
 [blink.c](https://github.com/antoine-dorard/hello_avr/blob/main/src/blink.c)
 #### Schematic
+![blink_schematic](https://github.com/antoine-dorard/hello_avr/blob/main/schematics/blinking_LED.svg)
 
 ### Not LED
 Turn off a LED when a button is pressed.
 #### Code
 [click.c](https://github.com/antoine-dorard/hello_avr/blob/main/src/click.c)
 #### Schematic
+![LED_click_schematic](https://github.com/antoine-dorard/hello_avr/blob/main/schematics/LED_click.svg)
 
 ### Who said no light?
 Using a light sensor, progressively turn on an LED when the light sensor detects less and less light.
 #### Code
+[light.c](https://github.com/antoine-dorard/hello_avr/blob/main/src/light.c)
 #### Schematic
-
+![light_sensing_schematic](https://github.com/antoine-dorard/hello_avr/blob/main/schematics/light_sensing.svg)
