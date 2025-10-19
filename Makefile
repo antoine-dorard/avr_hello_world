@@ -2,10 +2,10 @@
 SRC_PATH=src
 BUILD_PATH=build
 
-PROJECT=click
+PROJECT=light
 
 
-.PHONY: build burn clean
+.PHONY: build burn clean readfuse
 
 build: $(BUILD_PATH)/$(PROJECT).hex
 
@@ -22,3 +22,6 @@ $(BUILD_PATH)/$(PROJECT).hex: $(BUILD_PATH)/$(PROJECT).elf
 $(BUILD_PATH)/$(PROJECT).elf: $(SRC_PATH)/$(PROJECT).c
 	@mkdir -p $(BUILD_PATH)
 	avr-gcc -mmcu=atmega328p -D__AVR_ATmega328P__ -Wall -Os -o $@ $<
+
+readfuse:
+	avrdude -p m328p -c usbasp -U lfuse:r:-:h -U hfuse:r:-:h -U efuse:r:-:h
