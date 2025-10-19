@@ -22,20 +22,20 @@ List of projects under this repository.
 ### Blinking LED
 Simple blinking LED program, or the "Hello, World!" of embedded programming.
 #### Code
-[blink.c](./src/blink.c)
+[blink.c](src/blink.c)
 #### Schematic
-![blink_schematic](./schematics/blinking_LED.svg)
+![blink_schematic](schematics/blinking_LED.svg)
 
 ### Not LED
 Turn off an LED when a button is pressed.
 #### Code
-[click.c](./src/click.c)
+[click.c](src/click.c)
 #### Schematic
-![LED_click_schematic](./schematics/LED_click.svg)
+![LED_click_schematic](schematics/LED_click.svg)
 
 ### Who said no light?
 Using a light sensor, progressively turn on an LED when the light sensor detects less and less light.
 #### Code
-[light.c](./src/light.c)
+[light.c](src/light.c)
 #### Schematic
-![light_sensing_schematic](./schematics/light_sensing.svg)
+![light_sensing_schematic](schematics/light_sensing.svg)
